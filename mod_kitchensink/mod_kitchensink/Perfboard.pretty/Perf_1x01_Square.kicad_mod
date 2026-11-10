@@ -1,0 +1,67 @@
+(footprint "Perf_1x01_Square"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Bare square through-hole perfboard pad, 2.0 mm pad, 1.0 mm drill, no silkscreen/courtyard/fab graphics")
+	(tags "perfboard prototyping pad")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1121a8e7-8d36-4bf3-bbb5-5d329311014b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Perf_1x01_Square"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a9baad1-e754-46d4-8e47-5e534ec6b725")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c2a332c-aad6-479c-82eb-5834fb1705c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Bare square through-hole perfboard pad"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e9f9e6e-50f1-4a2a-bb10-f9c9eb4ae032")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "af5626b3-4dd6-4e23-9422-eec123fa2076")
+	)
+	(embedded_fonts no)
+)

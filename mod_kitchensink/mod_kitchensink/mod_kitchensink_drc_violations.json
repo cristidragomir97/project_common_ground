@@ -1,0 +1,651 @@
+{
+  "board": "C:\\Users\\crist\\Desktop\\CAN-a-BUS\\mod_kitchensink\\mod_kitchensink\\mod_kitchensink.kicad_pcb",
+  "timestamp": "2026-11-06T15:04:28",
+  "total_violations": 63,
+  "violation_counts": {
+    "copper_edge_clearance": 2,
+    "silk_over_copper": 36,
+    "via_dangling": 3,
+    "silk_edge_clearance": 16,
+    "lib_footprint_mismatch": 4,
+    "lib_footprint_issues": 1,
+    "text_height": 1
+  },
+  "severity_counts": {
+    "error": 38,
+    "warning": 25,
+    "info": 0
+  },
+  "violations": [
+    {
+      "type": "copper_edge_clearance",
+      "severity": "error",
+      "message": "Board edge clearance violation (board setup constraints edge clearance 0.0750 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 100.762,
+        "y": 46.66,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "copper_edge_clearance",
+      "severity": "error",
+      "message": "Board edge clearance violation (board setup constraints edge clearance 0.0750 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 100.762,
+        "y": 46.66,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 101.925,
+        "y": 70.49,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 101.93,
+        "y": 70.485,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 119.073988,
+        "y": 54.615012,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 119.073988,
+        "y": 54.615012,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 119.073988,
+        "y": 54.615012,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 119.073988,
+        "y": 54.615012,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 119.073988,
+        "y": 54.615012,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 119.073988,
+        "y": 54.615012,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 119.073988,
+        "y": 54.615012,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 119.073988,
+        "y": 72.395012,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 119.073988,
+        "y": 72.395012,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 119.073988,
+        "y": 72.395012,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 119.073988,
+        "y": 72.395012,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 119.073988,
+        "y": 72.395012,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 119.073988,
+        "y": 72.395012,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 119.073988,
+        "y": 72.395012,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 119.079,
+        "y": 54.61,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 119.079,
+        "y": 54.61,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 119.079,
+        "y": 54.61,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 119.079,
+        "y": 54.61,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 119.079,
+        "y": 54.61,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 119.079,
+        "y": 54.61,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 119.079,
+        "y": 54.61,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 119.079,
+        "y": 72.39,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 119.079,
+        "y": 72.39,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 119.079,
+        "y": 72.39,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 119.079,
+        "y": 72.39,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 119.079,
+        "y": 72.39,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 119.079,
+        "y": 72.39,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 119.079,
+        "y": 72.39,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 101.92899,
+        "y": 56.52001,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 101.934,
+        "y": 56.515,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 119.073987,
+        "y": 56.520013,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 119.078999,
+        "y": 56.515001,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 119.073987,
+        "y": 70.490011,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "error",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 119.078999,
+        "y": 70.484999,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "warning",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 118.19,
+        "y": 55.4175,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "warning",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 113.11,
+        "y": 55.4175,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "warning",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 110.57,
+        "y": 55.4175,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 163.5,
+        "y": 46.66,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 163.5,
+        "y": 46.66,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 100.0,
+        "y": 99.238,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 100.0,
+        "y": 99.238,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 100.0,
+        "y": 99.238,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 100.0,
+        "y": 99.238,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 100.0,
+        "y": 99.238,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 100.0,
+        "y": 99.238,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 100.0,
+        "y": 99.238,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 100.0,
+        "y": 99.238,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 100.0,
+        "y": 99.238,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 100.0,
+        "y": 99.238,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 100.0,
+        "y": 99.238,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 100.0,
+        "y": 99.238,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 100.0,
+        "y": 99.238,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 100.762,
+        "y": 46.66,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "lib_footprint_mismatch",
+      "severity": "warning",
+      "message": "Footprint 'PinSocket_1x08_P2.54mm_Vertical' does not match copy in library 'Connector_PinSocket_2.54mm'",
+      "location": {
+        "x": 127.94,
+        "y": 97.46,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "lib_footprint_mismatch",
+      "severity": "warning",
+      "message": "Footprint 'PinSocket_1x06_P2.54mm_Vertical' does not match copy in library 'Connector_PinSocket_2.54mm'",
+      "location": {
+        "x": 150.8,
+        "y": 97.46,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "lib_footprint_mismatch",
+      "severity": "warning",
+      "message": "Footprint 'PinSocket_1x10_P2.54mm_Vertical' does not match copy in library 'Connector_PinSocket_2.54mm'",
+      "location": {
+        "x": 118.796,
+        "y": 49.2,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "lib_footprint_mismatch",
+      "severity": "warning",
+      "message": "Footprint 'PinSocket_1x08_P2.54mm_Vertical' does not match copy in library 'Connector_PinSocket_2.54mm'",
+      "location": {
+        "x": 145.72,
+        "y": 49.2,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "lib_footprint_issues",
+      "severity": "warning",
+      "message": "The current configuration does not include the footprint library 'XIAO_FootPrints'",
+      "location": {
+        "x": 110.57,
+        "y": 63.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "text_height",
+      "severity": "warning",
+      "message": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6350 mm)",
+      "location": {
+        "x": 99.32,
+        "y": 63.45,
+        "unit": "mm"
+      }
+    }
+  ]
+}
