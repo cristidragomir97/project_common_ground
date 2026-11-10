@@ -21,56 +21,17 @@ Modular robot electronics built around a shared power and CAN backbone. Modules 
 
 ## Example: XLeRobot module chain
 
-The diagram illustrates one possible physical daisy chain from separate fused outputs on the base board. The SBC is the robot's high-level computer; it would need a CAN interface to join the bus. All modules share the same CAN bus; each Feetech board locally controls its attached servos.
+The diagram shows one possible XLeRobot layout. The SBC receives power and connects to the control network through its own XT30(2+2) connection to the base board, then controls the robot modules. The Feetech boards locally drive their attached servos.
 
-```mermaid
-flowchart LR
-    BAT[Battery] --> BMS[BMS] --> BASE[mod_base]
-    BASE -->|Output 1 · XT30 power + CAN| FEET_BASE[Feetech<br/>Base motion<br/>3 servos]
-    BASE -->|Output 2 · XT30 power + CAN| SENSE[mod_sense<br/>IMU]
-    BASE -->|Output 3 · XT30 power + CAN| FEET_LEFT[Feetech<br/>Left arm<br/>6 servos]
-    BASE -->|Output 4 · XT30 power + CAN| FEET_RIGHT[Feetech<br/>Right arm<br/>6 servos]
-    SBC[SBC<br/>High-level control] <-->|CAN interface| FEET_BASE
-
-    classDef base fill:#f6bd60,stroke:#9a5b00,color:#202020,stroke-width:2px;
-    classDef feetech fill:#90caf9,stroke:#1565c0,color:#102a43,stroke-width:2px;
-    classDef sense fill:#a5d6a7,stroke:#2e7d32,color:#17351a,stroke-width:2px;
-    class BAT,BMS base;
-    class BASE base;
-    class FEET_BASE,FEET_LEFT,FEET_RIGHT feetech;
-    class SENSE sense;
-```
+![XLeRobot architecture](renders/xlerobot_architecture.png)
 
 The base board provides six fused outputs, so these four modules use four separate outputs and leave two available. Each branch carries the same CAN bus, so connect only the two bus endpoints with termination enabled.
 
 ## Example: AMR with DDSM115 drive and RobStride arm
 
-This layout uses one mod_ddsm for four independently connected DDSM115 wheel motors. The arm's RobStride servos connect directly to a separate XT30 branch; they do not pass through a Feetech board. Since the board's XT30(2+2) pinout assigns the other two contacts to CANH and CANL, confirm that the RobStride model uses a compatible connector pinout and bus signaling before connecting it. If it does, the SBC can communicate on the shared CAN bus through its CAN interface. The SBC also handles AMR navigation and higher-level control.
+This AMR layout uses one mod_ddsm for four independently connected DDSM115 wheel motors, with the reBot Arm B601-DM and an IMU on separate base-board branches. The SBC connects through XT30(2+2) for power and control. The arm uses RobStride servos. Check the arm's connection and power requirements against its documentation before wiring.
 
-```mermaid
-flowchart LR
-    BAT[Battery] --> BMS[BMS] --> BASE[mod_base]
-    BASE -->|Output 1 · XT30 power + CAN| DDSM[mod_ddsm<br/>Motor controller]
-    BASE -->|Output 2 · XT30 power + CAN| ARM[RobStride arm<br/>Servos connect directly]
-    BASE -->|Output 3 · XT30 power + CAN| SENSE[mod_sense<br/>IMU]
-    SBC[SBC<br/>Navigation + high-level control] <-->|CAN interface| DDSM
-
-    DDSM -->|Motor power + RS-485| M1[DDSM115<br/>Front left]
-    DDSM -->|Motor power + RS-485| M2[DDSM115<br/>Front right]
-    DDSM -->|Motor power + RS-485| M3[DDSM115<br/>Rear left]
-    DDSM -->|Motor power + RS-485| M4[DDSM115<br/>Rear right]
-
-    classDef base fill:#f6bd60,stroke:#9a5b00,color:#202020,stroke-width:2px;
-    classDef ddsm fill:#ce93d8,stroke:#6a1b9a,color:#26102d,stroke-width:2px;
-    classDef arm fill:#ffab91,stroke:#bf360c,color:#3e160b,stroke-width:2px;
-    classDef sense fill:#a5d6a7,stroke:#2e7d32,color:#17351a,stroke-width:2px;
-    classDef motor fill:#b0bec5,stroke:#455a64,color:#182329,stroke-width:2px;
-    class BAT,BMS,BASE base;
-    class DDSM ddsm;
-    class ARM arm;
-    class SENSE sense;
-    class M1,M2,M3,M4 motor;
-```
+![AMR architecture with DDSM115 drive and reBot Arm B601-DM](renders/amr_architecture.png)
 
 The base outputs are drawn as separate branches for clarity. They remain electrically connected to the same power source and CAN network; the output fuses isolate branch faults, not CAN traffic. Check motor and arm peak currents against the battery, BMS, wiring, and branch fuse ratings.
 

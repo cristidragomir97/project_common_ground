@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#405466"/></marker></defs>
+<rect width="1400" height="760" fill="#f7f9fb"/>
+<text x="700" y="48" text-anchor="middle" font-family="Arial" font-size="30" font-weight="bold" fill="#243746">AMR — DDSM115 drive + reBot arm</text>
+<g font-family="Arial" text-anchor="middle">
+<rect x="45" y="285" width="135" height="72" rx="12" fill="#f6bd60" stroke="#9a5b00" stroke-width="3"/><text x="112" y="315" font-size="20">Battery</text>
+<rect x="220" y="285" width="135" height="72" rx="12" fill="#f6bd60" stroke="#9a5b00" stroke-width="3"/><text x="287" y="315" font-size="20">BMS</text>
+<rect x="395" y="255" width="180" height="125" rx="12" fill="#f6bd60" stroke="#9a5b00" stroke-width="3"/><text x="485" y="300" font-size="22" font-weight="bold">mod_base</text><text x="485" y="332" font-size="17">Power + CAN hub</text>
+<rect x="715" y="90" width="240" height="105" rx="12" fill="#d7e3fc" stroke="#355c9a" stroke-width="3"/><text x="835" y="132" font-size="22" font-weight="bold">SBC</text><text x="835" y="165" font-size="17">AMR navigation + control</text>
+<rect x="700" y="260" width="240" height="100" rx="12" fill="#ce93d8" stroke="#6a1b9a" stroke-width="3"/><text x="820" y="300" font-size="22" font-weight="bold">mod_ddsm</text><text x="820" y="332" font-size="17">4 independent motor ports</text>
+<rect x="700" y="445" width="240" height="100" rx="12" fill="#a5d6a7" stroke="#2e7d32" stroke-width="3"/><text x="820" y="485" font-size="22" font-weight="bold">mod_sense</text><text x="820" y="517" font-size="17">IMU</text>
+<rect x="1060" y="270" width="290" height="105" rx="12" fill="#ffab91" stroke="#bf360c" stroke-width="3"/><text x="1205" y="310" font-size="20" font-weight="bold">reBot Arm B601-DM</text><text x="1205" y="342" font-size="17">RobStride servos</text>
+<rect x="1040" y="465" width="135" height="72" rx="12" fill="#b0bec5" stroke="#455a64" stroke-width="3"/><text x="1107" y="495" font-size="17">DDSM115</text><text x="1107" y="518" font-size="15">Front left</text>
+<rect x="1205" y="465" width="135" height="72" rx="12" fill="#b0bec5" stroke="#455a64" stroke-width="3"/><text x="1272" y="495" font-size="17">DDSM115</text><text x="1272" y="518" font-size="15">Front right</text>
+<rect x="1040" y="585" width="135" height="72" rx="12" fill="#b0bec5" stroke="#455a64" stroke-width="3"/><text x="1107" y="615" font-size="17">DDSM115</text><text x="1107" y="638" font-size="15">Rear left</text>
+<rect x="1205" y="585" width="135" height="72" rx="12" fill="#b0bec5" stroke="#455a64" stroke-width="3"/><text x="1272" y="615" font-size="17">DDSM115</text><text x="1272" y="638" font-size="15">Rear right</text>
+</g>
+<g fill="none" stroke="#405466" stroke-width="3" marker-end="url(#arrow)">
+<path d="M180 321H220"/><path d="M355 321H395"/>
+<path d="M575 275 C630 250 650 300 700 300"/><path d="M575 305 C635 350 650 490 700 490"/>
+<path d="M575 280 C760 220 900 310 1060 310"/>
+<path d="M485 255 C500 125 620 140 715 140"/>
+<path d="M940 300 C990 340 1000 480 1040 490"/><path d="M940 310 C1010 360 1130 470 1205 490"/>
+<path d="M940 330 C1000 390 1000 600 1040 610"/><path d="M940 340 C1030 420 1140 590 1205 610"/>
+</g>
+<g font-family="Arial" font-size="14" fill="#34495e">
+<text x="610" y="245">Output 1 · XT30 power + CAN</text><text x="610" y="440">Output 2 · XT30 power + CAN</text><text x="830" y="235">Output 3 · XT30 power + CAN</text>
+<text x="525" y="125">XT30(2+2): SBC power + CAN</text>
+<text x="955" y="410">DDSM motor outputs: power + RS-485</text>
+<text x="1190" y="410">Arm connects directly to separate base XT30 branch</text>
+</g>
+<text x="700" y="715" text-anchor="middle" font-family="Arial" font-size="16" fill="#34495e">Verify the reBot arm / RobStride power and CAN wiring against the arm documentation before connecting to XT30.</text>
+</svg>
